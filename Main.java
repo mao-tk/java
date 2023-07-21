@@ -1,18 +1,18 @@
 public class Main {
   public static void main (String[] args){
     System.out.println("あなたの運勢を占います");
-    int fortune = 1;
+    int fortune = new java.util.Random().nextInt(5) + 1;
     switch (fortune) {
       case 1:
-        System.out.println("大吉");
       case 2:
-        System.out.println("中吉");
+        System.out.println("いいね");
         break;
       case 3:
-        System.out.println("吉");
+        System.out.println("普通です");
         break;
-      default:
-        System.out.println("凶");
+      case 4:
+      case 5:
+        System.out.println("うーん…");
     }
   }
 }
