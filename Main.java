@@ -1,8 +1,10 @@
 public class Main {
   public static void main (String[] args){
-    int[] scores = {20, 30, 40, 50, 80};
-    for (int value : scores) {
-      System.out.println(value);
-    }
+    int[] arrayA = {1, 2, 3}; //arrayA[0]は１
+    int[] arrayB;
+    
+    arrayB = arrayA;
+    arrayB[0] = 100; //arrayB[0]に100を
+    System.out.println(arrayA[0]);
   }
 }
