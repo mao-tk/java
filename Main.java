@@ -1,10 +1,8 @@
 public class Main {
   public static void main (String[] args){
-    int[] arrayA = {1, 2, 3}; //arrayA[0]は１
-    int[] arrayB;
-    
-    arrayB = arrayA;
-    arrayB[0] = 100; //arrayB[0]に100を
-    System.out.println(arrayA[0]);
+    boolean judge = true;
+    if (judge == true) {
+      int[] array = {1, 2, 3};
+    }
   }
 }
