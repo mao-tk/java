@@ -1,16 +1,8 @@
 public class Main {
   public static void main(String[] args) {
-    for (int a = 0; a < 10; a++) {
-      System.out.print("BLOCK" + String.format("%02d ", a));
-      for (int b = 0; b < 10; b++) {
-        if (a == b) {
-          System.out.print("00 ");
-        }else {
-          System.out.print(String.format("%02d ", a * 10 + b));
-        }
-      }
-      System.out.println("");
-    }
-    System.out.println("END");
+    System.out.println("勇者よ、この仮想世界に生まれよ！");
+    System.out.println("お化けキノコよ、この仮想世界に生まれよ！");
+    System.out.println("勇者よ、戦え！");
+    System.out.println("お化けキノコよ、逃げろ！");
   }
 }
